@@ -1,0 +1,37 @@
+.conteiner {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px 0 50px;
+
+  .wrap-inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .input-name {
+      width: 200px;
+      border: 1px solid #b7d4ff;
+      border-radius: 5px;
+    }
+
+    .input-name:focus {
+      border: 1px solid #b7d4ff;
+      border-radius: 5px;
+      outline: none;
+    }
+
+    .input-value {
+      width: 600px;
+      border: 1px solid #b7d4ff;
+      outline: none;
+      border-radius: 5px;
+      padding: 0 10px;
+    }
+
+    .icon {
+      margin-left: 15px;
+      color: #b7d4ff;
+      cursor: pointer;
+    }
+  }
+}
